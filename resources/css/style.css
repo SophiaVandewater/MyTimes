@@ -33,3 +33,19 @@ li {
 .main p {
   border: 2px solid black;
 }
+
+.main {
+  display: flex;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
