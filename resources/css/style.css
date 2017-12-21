@@ -36,16 +36,25 @@ li {
 
 .main {
   display: flex;
+  flex-flow: row;
 }
 
 .column.large {
   width: 630px;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .column.medium {
   width: 300px;
+  display: flex;
+  flex-direction: column;
 }
 
 .column.small {
   width: 240px;
+  display: flex;
+  flex-direction: column;
+
 }
