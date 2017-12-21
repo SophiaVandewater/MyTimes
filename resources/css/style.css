@@ -30,20 +30,14 @@ li {
   padding: 10px;
 }
 
-.main p {
-  border: 2px solid black;
-}
-
 .main {
   display: flex;
-  flex-flow: row;
 }
 
 .column.large {
   width: 630px;
   display: flex;
   flex-direction: column;
-
 }
 
 .column.medium {
@@ -56,5 +50,29 @@ li {
   width: 240px;
   display: flex;
   flex-direction: column;
+}
 
+.phish {
+  display: flex;
+  background: url("../images/img-story-main.png");
+}
+
+.earth {
+  display: flex;
+  background: url("../images/img-story-2.png");
+}
+
+.memory {
+  display: flex;
+  background: url("../images/img-story-3.png");
+}
+
+.cats {
+  display: flex;
+  background: url("../images/img-story-1.png");
+}
+
+.cookie {
+  display: flex;
+  background: url("../images/img-news-bite.png");
 }
